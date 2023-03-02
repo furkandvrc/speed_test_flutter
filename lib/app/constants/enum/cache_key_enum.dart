@@ -1,0 +1,1 @@
+enum CacheKey { token, loggedIn, languageCode }
