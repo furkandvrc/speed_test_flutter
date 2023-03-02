@@ -9,10 +9,6 @@ class TrLocalization extends AppLocalizationLabel {
   final String localizationTitle = 'Türkçe';
 
   @override
-  String get iAcceptTermsAndConditions =>
-      "Kullanım Şartlarını okudum, kabul ediyorum.";
-
-  @override
   String get checkYourInternetConnection =>
       "Lütfen internet bağlantınızı kontrol edin.";
 
@@ -20,52 +16,8 @@ class TrLocalization extends AppLocalizationLabel {
   String get tryAgain => "Tekrar Dene";
 
   @override
-  String get aboutUs => "Hakkımızda";
-
-  @override
-  String get contactUs => "Bize Ulaşın";
-
-  @override
-  String get termsOfPolicy => "Kullanım Şartları";
-
-  @override
-  String get termsOfPrivacy => "Gizlilik Politikası";
-
-  @override
-  String get settingsScreenTitle => "Ayarlar";
-
-  @override
-  String get no => 'HAYIR';
-
-  @override
-  String get yes => 'EVET';
-
-  @override
-  String get allowBtnText => 'İZİN VER';
-
-  @override
-  String get goodAfternoon => 'Tünaydın,';
-
-  @override
-  String get goodEvening => 'İyi Akşamlar';
-
-  @override
-  String get goodMorning => 'Günaydın,';
-
-  @override
-  String get goodNight => 'İyi Geceler,';
-
-  @override
   String get defaultError =>
       'Bir hata oluştu. Lütfen daha sonra tekrar deneyin.';
-
-  @override
-  String get noInternetErrorMessage =>
-      "Internet bağlantınız bulunmamaktadır. Lütfen bağlantınızı kontrol edin.";
-
-  @override
-  String get serverErrorMessage =>
-      "Sunucu kaynaklı bir hata oluştu. Lütfen daha sonra tekrar deneyin.";
 
   @override
   String get ok => "Tamam";

@@ -38,41 +38,11 @@ abstract class AppLocalizationLabel {
 
   String get lanCode;
 
-  String get iAcceptTermsAndConditions;
-
   String get checkYourInternetConnection;
 
   String get tryAgain;
 
-  String get aboutUs;
-
-  String get contactUs;
-
-  String get termsOfPolicy;
-
-  String get termsOfPrivacy;
-
-  String get settingsScreenTitle;
-
-  String get yes;
-
-  String get no;
-
-  String get allowBtnText;
-
-  String get goodMorning;
-
-  String get goodAfternoon;
-
-  String get goodEvening;
-
-  String get goodNight;
-
   String get defaultError;
-
-  String get serverErrorMessage;
-
-  String get noInternetErrorMessage;
 
   String get ok;
 
