@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:speed_test/app/extension/context_extensions.dart';
-
 import '../../../app/components/message/error_message_dialog.dart';
 import '../../../app/navigation/screens.dart';
 import '../../../core/i10n/i10n.dart';

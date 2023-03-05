@@ -1,13 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
-
 import '../../screen/navigation/unknown_route_screen.dart';
-
-/// Page Animasyonlarını ve PageRouteNavigate i bu sınıfta yazmaktayız.
-/// [goToPageWithOutAnimation] Animasyonsuz ekran  geçişleri için yazıldı.
-/// [goToPage] Platforma göre istediğimiz ekran gitmek için yazıldı.
-/// [returnUnknownPageRoute] Ismi route de kayıtlı olmayan ekranlara gidersek gösterilen ekranı döndürmekte.
-///
 abstract class PageNavigation {
   PageRouteBuilder goToPageWithOutAnimation(Widget screen, RouteSettings settings) {
     return PageRouteBuilder(

@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-
-/// Renkleri yazdığımız sınıf
-///
 class AppColor {
   AppColor._();
 
